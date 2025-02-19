@@ -1,11 +1,22 @@
 .back-link {
   position: relative;
   display: inline-block;
-  padding: 4px 8px;
-  margin-top: 32px;
-  border: 1px solid;
-  border-radius: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #000000;
+  transition: color 300ms ease-in-out;
+  margin: 24px 0;
 }
+
+.back-link:hover,
+.back-link:focus {
+  color: #635e5e;
+}
+
 .back-link::before {
   content: '';
   position: absolute;
