@@ -58,7 +58,7 @@ main:has(.back-link) {
   transform: scale(1.05);
 }
 
-.form {
+.feedback-form {
   max-width: 408px;
   padding: 24px;
   display: flex;

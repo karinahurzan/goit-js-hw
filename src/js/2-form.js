@@ -1,6 +1,6 @@
 'use strict';
 
-const form = document.querySelector('.form');
+const form = document.querySelector('.feedback-form');
 
 const localStorageKey = 'feedback-form-state';
 
